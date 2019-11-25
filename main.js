@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 var eventBus = new Vue()
@@ -221,4 +222,3 @@ Vue.component('product', {
           this.cart.push(id)
         }
       }
-  })
