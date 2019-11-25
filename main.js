@@ -222,3 +222,5 @@ Vue.component('product', {
           this.cart.push(id)
         }
       }
+
+  })
