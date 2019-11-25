@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 var eventBus = new Vue()
@@ -58,13 +57,13 @@ Vue.component('product', {
             {
               variantId: 2234,
               variantColor: 'green',
-              variantImage: '../img/vm-green.jpg',
+              variantImage: 'img/vm-green.jpg',
               variantQuantity: 10     
             },
             {
               variantId: 2235,
               variantColor: 'blue',
-              variantImage: '../img/vm-blue.jpg',
+              variantImage: 'img/vm-blue.jpg',
               variantQuantity: 0     
             }
           ],
@@ -222,5 +221,4 @@ Vue.component('product', {
           this.cart.push(id)
         }
       }
-
   })
